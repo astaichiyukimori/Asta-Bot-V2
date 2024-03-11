@@ -1,6 +1,3 @@
-Ai correct this code 
-
-
 const axios = require('axios');
 const fs = require('fs-extra');
 const path = require('path');
@@ -192,4 +189,4 @@ module.exports = {
   onReply: function ({ api, message, event, args }) {
     return l({ api, message, event, args });
       }
-}
+};
