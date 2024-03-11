@@ -86,4 +86,4 @@ module.exports = {
   onReply: function ({ message, event, args, api }) {
     return l({ message, event, args, api });
   }
-}
+};
