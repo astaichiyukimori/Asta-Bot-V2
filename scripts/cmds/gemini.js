@@ -3,7 +3,7 @@ const FormData = require('form-data');
 
 module.exports = {
     config: {
-        name: "asta",
+        name: "gemini",
         version: "1.0",
         author: "Samir Thakuri",
         countDown: 5,
@@ -129,3 +129,4 @@ module.exports = {
           await message.reply("An error occurred while processing your request. Please try again later.");
       }
   }
+};
