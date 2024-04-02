@@ -54,7 +54,7 @@ module.exports = {
  const prompt = event.body.substring(prefix.length).trim();
 
  if (prompt === '') {
- await message.reply(⚔️ASTA⚔️:\n\nastaResponses[Math.floor(Math.random() * astaResponses.length)]);
+ await message.reply(astaResponses[Math.floor(Math.random() * astaResponses.length)]);
  return astaResponses[Math.floor(Math.random() * astaResponses.length)];
  }
 
