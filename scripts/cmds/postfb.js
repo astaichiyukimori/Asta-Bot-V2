@@ -209,4 +209,4 @@ function getGUID() {
     return _guid;
   });
   return id;
-                                                          }
+}
