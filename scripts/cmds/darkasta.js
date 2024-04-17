@@ -80,10 +80,10 @@ async function kshitiz(api, event, args, message) {
 
 
 const a = {
-  name: "darkasta",
-  aliases: ["dasta"],
+  name: "gpt",
+  aliases: ["chatgpt"],
   version: "3.0",
-  author: "kshitiz",
+  author: "vex_kshitiz",
   countDown: 5,
   role: 0,
   longDescription: "Chat with GPT-4",
@@ -188,5 +188,5 @@ module.exports = {
   },
   onReply: function ({ api, message, event, args }) {
     return l({ api, message, event, args });
-      }
+  }
 };
