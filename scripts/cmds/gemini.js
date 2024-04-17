@@ -189,8 +189,8 @@ async function drawImage(message, prompt) {
 }
 
 const a = {
-  name: "gemini",
-  aliases: ["bard"],
+  name: "asta",
+  aliases: ["astie"],
   version: "4.0",
   author: "vex_kshitiz",
   countDown: 5,
